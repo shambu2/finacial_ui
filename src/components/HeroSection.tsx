@@ -2,9 +2,10 @@
 import { discount, arrowUp, robot } from "../assets";
 const HeroSection = () => {
   return (
-    <div className=" flex pl-[10%] h-[100vh] pr-[10%] justify-between">
+    <div className=" flex flex-col justify-center md:justify-between md:flex-row pl-[10%] md:pl-[10%] pr-[10%] h-auto  md:h-[100vh]  overflow-x-hidden ">
       <div className="h-[324px] w-[162px] rounded-full bg-white -left-16 top-[252px] blur-[200px] z-20 absolute" />
-      <div className="pt-28">
+      
+      <div className="pt-28 ">
         <div className="flex items-center  bg-gradient-to-r from-amber-50/15 to-black rounded-full">
           <img src={discount} alt="" />
           <p>
@@ -19,7 +20,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className=" bg-gradient-to-b from-cyan-600 to-blue-100  h-20 w-20 rounded-full p-0.5 ">
+          <div className="hidden md:block bg-gradient-to-b from-cyan-600 to-blue-100  h-20 w-20 rounded-full p-0.5 ">
             <div className="flex flex-col justify-center items-center  h-full w-full bg-black rounded-full">
               <p className="flex  items-center justify-center  bg-gradient-to-b from-cyan-600 to-blue-100 bg-clip-text text-transparent ">
                 <span>Get</span>
@@ -45,10 +46,10 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-      <div className="flex pt-10 object-cover">
-        <div className="absolute h-[571px] w-[578px] border z-10  bg-gradient-to-b from-[#BCA5FF] to-[#214D76] left-[797px] top-[73px] blur-[123px] opacity-40"></div>
-        <div className="left-[998px] absolute   top-24  w-[400px] h-[471px] blur-[750px] z-20  bg-white  rounded-b-full"></div>
-        <img src={robot} alt="something" className="w-[669px] h-[674px] " />
+      <div className="flex pt-10 object-cover z-10">
+        <div className="absolute h-[571px] w-[578px] border -z-10  bg-gradient-to-b from-[#BCA5FF] to-[#214D76] left-[797px] top-[73px] blur-[123px] opacity-40"></div>
+        <div className="left-[998px] absolute   top-24  w-[400px] h-[471px] blur-[750px] -z-10  bg-white  rounded-b-full"></div>
+        <img src={robot} alt="something" className="w-[669px] h-[674px] z-10 " />
       </div>
     </div>
   );
