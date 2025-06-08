@@ -2,6 +2,7 @@ import Business from "./components/Business";
 import CardDeal from "./components/CardDeal";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import PaymentCard from "./components/PaymentCard";
 import Stats from "./components/Stats";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Stats/>
       <Business/>
       <CardDeal/>
+      <PaymentCard/>
     </div>
   );
 }
