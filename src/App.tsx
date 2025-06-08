@@ -1,3 +1,4 @@
+import Business from "./components/Business";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <HeroSection/>
       <Stats/>
+      <Business/>
     </div>
   );
 }
