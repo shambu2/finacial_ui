@@ -5,7 +5,7 @@ import Stats from "./components/Stats";
 
 function App() {
   return (
-    <div className="bg-black w-screen h-screen overflow-x-hidden">
+    <div className="bg-[#00040F] w-screen h-screen overflow-x-hidden">
       <Navbar />
       <HeroSection/>
       <Stats/>
