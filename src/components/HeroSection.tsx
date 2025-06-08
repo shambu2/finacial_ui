@@ -2,9 +2,9 @@
 import { discount, arrowUp, robot } from "../assets";
 const HeroSection = () => {
   return (
-    <div className=" bg-[#00040F] flex flex-col justify-center md:justify-between md:flex-row pl-[10%] md:pl-[10%] pr-[10%] h-auto  md:h-[100vh]  overflow-x-hidden ">
-      <div className="h-[324px] w-[162px] rounded-full bg-white -left-16 top-[252px] blur-[200px] z-20 absolute" />
-      
+    <div className=" relative bg-[#00040F] flex flex-col justify-center md:justify-between md:flex-row pl-[10%] md:pl-[10%] pr-[10%] h-auto  md:h-[100vh]  overflow-x-hidden ">
+      <div className="h-[35%] w-[20%] bg-gradient-to-r from-blue-100 to-blue-900 blur-[123px] -left-10 top-1/4 z-10 absolute" />
+      {/* <div className="absolute z-[0] w-[40%] h-[35%] top-10  right-10 bg-gradient-to-r from-[#BCA5FF] to-[#214D76] blur-[123px]"/> */}
       <div className="pt-28 ">
         <div className="flex items-center  bg-gradient-to-r from-amber-50/15 to-black rounded-full">
           <img src={discount} alt="" />
@@ -12,10 +12,10 @@ const HeroSection = () => {
             <span>20%</span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT
           </p>
         </div>
-        <div className=" flex items-center">
-          <div className="text-7xl leading-[1.4] font-semibold">
+        <div className=" flex items-center  ">
+          <div className="text-7xl leading-[1.4] font-semibold ">
             <p>The Next</p>
-            <p className="bg-gradient-to-r from-cyan-600 to-blue-100 text-transparent bg-clip-text">
+            <p className=" bg-gradient-to-r from-cyan-600 to-blue-100 text-transparent bg-clip-text ">
               Generation
             </p>
           </div>
@@ -34,7 +34,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="text-7xl leading-[1.4] font-semibold">
+        <div className="text-7xl leading-[1.4] font-semibold ">
           <p>Payment</p>
           <p>Method.</p>
         </div>
@@ -46,13 +46,15 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-      <div className="flex pt-10 object-cover z-10 ">
-        <div className="absolute  h-[571px] w-[578px] border -z-10  bg-gradient-to-b from-[#BCA5FF] to-[#214D76] left-[797px] top-[73px] blur-[123px] opacity-40"></div>
-        <div className="left-[998px] absolute   top-24  w-[400px] h-[471px] blur-[750px] -z-10  bg-white  rounded-b-full"></div>
-        <img src={robot} alt="something" className="w-[669px] h-[674px] z-10 " />
+      <div className=" pt-10  relative ">
+        <img src={robot} alt="something" className="w-[669px] h-[674px] z-50 relative " />
+        <div className="absolute z-[0] w-[40%] h-[35%] top-10  right-16 bg-gradient-to-r from-[#BCA5FF] to-[#214D76] blur-[123px]"/>
+        {/* <div className="absolute  w-[40%] h-[50%]  z-0  bg-gradient-to-r from-[#BCA5FF] to-[#214D76]  blur-[123px] opacity-40"></div> */}
+        {/* <div className="left-[998px] absolute   top-24  w-[40%] h-[50%] blur-[750px] -z-10  bg-white  rounded-b-full"></div> */}
       </div>
     </div>
   );
 };
 
 export default HeroSection;
+// 

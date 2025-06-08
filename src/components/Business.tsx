@@ -17,7 +17,7 @@ const Business = () => {
         </button>
       </div>
       <div className="  flex flex-col items-start max-w-[470px] ">
-        <div className="w-[470px] hover:bg-gradient-to-b from-[#FFFFFF00] to-[#14101D] rounded-4xl px-4 h-[115px] gap-4 flex items-center ">
+        <div className="w-[470px] hover:bg-gradient-to-b from-white/10 to-[#141217] rounded-4xl px-4 h-[115px] gap-4 flex items-center ">
           <div>
             <img src={star} alt="" className="h-16"/>
           </div>
@@ -30,7 +30,7 @@ const Business = () => {
             </p>
           </div>
         </div>
-        <div className="w-[470px] h-[115px] hover:bg-gradient-to-b from-[#FFFFFF00] to-[#14101D] rounded-4xl px-4 gap-4  flex items-center ">
+        <div className="w-[470px] h-[115px] hover:bg-gradient-to-b from-white/10 to-[#141217] rounded-4xl px-4 gap-4  flex items-center ">
           <div>
             <img src={shield} alt="" className="h-16"/>
           </div>
@@ -43,7 +43,7 @@ const Business = () => {
             </p>
           </div>
         </div>
-        <div className="w-[470px] h-[115px] hover:bg-gradient-to-b from-[#FFFFFF00] to-[#14101D] rounded-4xl px-4 gap-4  flex items-center ">
+        <div className="w-[470px] h-[115px] hover:bg-gradient-to-b from-white/10 to-[#141217] rounded-4xl px-4 gap-4  flex items-center ">
           <div>
             <img src={send} alt="" className="h-16"/>
           </div>
