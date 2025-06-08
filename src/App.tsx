@@ -1,4 +1,5 @@
 import Business from "./components/Business";
+import CardDeal from "./components/CardDeal";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection/>
       <Stats/>
       <Business/>
+      <CardDeal/>
     </div>
   );
 }

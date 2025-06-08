@@ -2,7 +2,7 @@
 import { star, shield, send } from "../assets";
 const Business = () => {
   return (
-    <div className="flex justify-between mb-10 items-center w-full px-[10%]  text-oveflow  mt-auto  ">
+    <div className="flex justify-between mb-10 items-center w-full px-[10%]  text-oveflow  mt-auto pt-20  ">
       <div className=" max-w-[622px]">
         <h1 className="text-5xl font-semibold leading-[160%]">
           You do the business, we’ll handle the money.
