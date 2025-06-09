@@ -2,7 +2,7 @@ import React from "react";
 import { quotes, people01, people02, people03 } from "../assets";
 const TestimonialCard = () => {
   return (
-    <div className="w-full px-[10%] flex flex-col mt-4 mb-10">
+    <div className="w-full px-[10%] flex flex-col mt-4 mb-10 relative">
       <div className="flex flex-row justify-between items-center mb-10">
         <div>
           <h1 className="text-5xl font-semibold leading-[170%] w-[470px] h-[164px] text-[#FFFFFF]">
@@ -16,7 +16,7 @@ const TestimonialCard = () => {
           </p>
         </div>
       </div>
-
+      <div className="absolute w-96 h-[400px] bg-red-400 blur-[200px] -right-96 bg-gradient-to-r to-[#26D0CE] from-[#1A2980] "/>
       <div className="flex">
         <div className="grid grid-cols-3  ">
           <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px] border-2 items-start px-10 space-x-4 rounded-4xl gap-4">
