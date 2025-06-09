@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { quotes, people01, people02, people03 } from "../assets";
 const TestimonialCard = () => {
   return (

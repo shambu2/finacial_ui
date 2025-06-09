@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { airbnb,binance,coinbase,dropbox } from '../assets'
 const CompanyCards = () => {
   return (

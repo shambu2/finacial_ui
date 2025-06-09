@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { logo, instagram, facebook, twitter, linkedin } from "../assets";
 const Footer = () => {
   return (

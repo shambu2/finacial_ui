@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { bill, apple, google } from "../assets";
 const CardDeal = () => {
   return (
