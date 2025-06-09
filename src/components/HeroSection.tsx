@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="h-[35%] w-[20%] bg-gradient-to-r from-blue-100 to-blue-900 blur-[123px] -left-10 top-1/4 z-10 absolute" />
       {/* <div className="absolute z-[0] w-[40%] h-[35%] top-10  right-10 bg-gradient-to-r from-[#BCA5FF] to-[#214D76] blur-[123px]"/> */}
       <div className="pt-28 ">
-        <div className="flex items-center  bg-gradient-to-r from-amber-50/15 to-black rounded-full">
+        <div className="flex w-fit pr-3 items-center  bg-gradient-to-r from-amber-50/15 to-gray-900  rounded-full">
           <img src={discount} alt="" />
           <p>
             <span>20%</span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT
