@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import PaymentCard from "./components/PaymentCard";
 import Stats from "./components/Stats";
+import TestimonialCard from "./components/TestimonialCard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Business/>
       <CardDeal/>
       <PaymentCard/>
+      <TestimonialCard/>
     </div>
   );
 }
