@@ -48,16 +48,15 @@ const TestimonialCard = () => {
               <img src={quotes} alt="" className="w-[43px] h-[28px]" />
             </div>
             <div className="text-lg font-normal leading-[180%] w-[290px] h-[128px]">
-              Money is only a tool. It will take you wherever you wish, but it
-              will not replace you as the driver.
+              Money makes your life easier. If you're lucky to have it, you're lucky.
             </div>
             <div className="flex gap-4 ">
               <div>
-                <img src={people01} alt="" className="w-12 h-12" />
+                <img src={people02} alt="" className="w-12 h-12" />
               </div>
               <div>
                 <h1 className="text-xl leading-[32px] text-[##FFFFFF] font-normal ">
-                  Herman Jensen
+                  Steve Mark
                 </h1>
                 <p className="text-base font-normal opacity-50 text-[#FFFFFF]">
                   Founder & Leader
@@ -72,16 +71,15 @@ const TestimonialCard = () => {
               <img src={quotes} alt="" className="w-[43px] h-[28px]" />
             </div>
             <div className="text-lg font-normal leading-[180%] w-[290px] h-[128px]">
-              Money is only a tool. It will take you wherever you wish, but it
-              will not replace you as the driver.
+              It is usually people in the money business, finance, and international trade that are really rich.
             </div>
             <div className="flex gap-4 ">
               <div>
-                <img src={people01} alt="" className="w-12 h-12" />
+                <img src={people03} alt="" className="w-12 h-12" />
               </div>
               <div>
                 <h1 className="text-xl leading-[32px] text-[##FFFFFF] font-normal ">
-                  Herman Jensen
+                  Kenn Gallagher
                 </h1>
                 <p className="text-base font-normal opacity-50 text-[#FFFFFF]">
                   Founder & Leader

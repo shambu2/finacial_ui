@@ -1,5 +1,6 @@
 import Business from "./components/Business";
 import CardDeal from "./components/CardDeal";
+import CompanyCards from "./components/companyCards";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import PaymentCard from "./components/PaymentCard";
@@ -16,6 +17,7 @@ function App() {
       <CardDeal/>
       <PaymentCard/>
       <TestimonialCard/>
+      <CompanyCards/>
     </div>
   );
 }
