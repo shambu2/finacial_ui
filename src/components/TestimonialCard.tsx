@@ -19,7 +19,7 @@ const TestimonialCard = () => {
       <div className="absolute w-96 h-[400px] bg-red-400 blur-[200px] -right-96 bg-gradient-to-r to-[#26D0CE] from-[#1A2980] "/>
       <div className="flex">
         <div className="grid grid-cols-3  ">
-          <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px] border-2 items-start px-10 space-x-4 rounded-4xl gap-4">
+          <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px]  items-start px-10 space-x-4 rounded-4xl gap-4">
             <div>
               <img src={quotes} alt="" className="w-[43px] h-[28px]" />
             </div>
@@ -43,7 +43,7 @@ const TestimonialCard = () => {
           </div>
         </div>
         <div className="grid grid-cols-3  ">
-          <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px] border-2 items-start px-10 space-x-4 rounded-4xl gap-4">
+          <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px]  items-start px-10 space-x-4 rounded-4xl gap-4">
             <div>
               <img src={quotes} alt="" className="w-[43px] h-[28px]" />
             </div>
@@ -66,7 +66,7 @@ const TestimonialCard = () => {
           </div>
         </div>
         <div className="grid grid-cols-3  ">
-          <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px] border-2 items-start px-10 space-x-4 rounded-4xl gap-4">
+          <div className="flex flex-col justify-center  py-4  h-[395px] w-[370px]  items-start px-10 space-x-4 rounded-4xl gap-4">
             <div>
               <img src={quotes} alt="" className="w-[43px] h-[28px]" />
             </div>

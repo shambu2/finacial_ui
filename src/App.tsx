@@ -1,7 +1,8 @@
 import Business from "./components/Business";
 import CardDeal from "./components/CardDeal";
-import CompanyCards from "./components/companyCards";
+import CompanyCards from "./components/CompanyCards";
 import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import PaymentCard from "./components/PaymentCard";
@@ -20,6 +21,7 @@ function App() {
       <TestimonialCard/>
       <CompanyCards/>
       <Cta/>
+      <Footer/>
     </div>
   );
 }
